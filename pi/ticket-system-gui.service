@@ -1,0 +1,17 @@
+[Unit]
+Description=Ticket System GUI Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/ticket-system/pi/main.py
+WorkingDirectory=/opt/ticket-system/pi
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/pi/.Xauthority
+
+[Install]
+WantedBy=graphical.target
