@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO_URL="https://github.com/yourusername/ticket-system.git" # <-- Set your repo
+REPO_URL="https://github.com/NerdsCorp/ticket-system.git" # <-- Set your repo
 INSTALL_DIR="/opt/ticket-system"
 PYTHON_BIN="/usr/bin/python3"
 SERVICE_NAME="ticket-system-gui"
