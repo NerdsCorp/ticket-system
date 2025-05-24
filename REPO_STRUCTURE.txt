@@ -1,0 +1,13 @@
+ticket-system/
+├── arduino/
+│   └── gate_controller.ino
+├── pi/
+│   ├── arduino_comm.py
+│   ├── db.py
+│   ├── main.py
+│   ├── onscreen_keyboard.py
+│   ├── printer.py
+│   ├── requirements.txt
+│   └── ticket_gen.py
+├── install_ticket_system.sh
+├── README.md
